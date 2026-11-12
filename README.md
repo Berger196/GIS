@@ -13,4 +13,11 @@ Grundlage der Karte sind die Daten des Monitorings Soziale Stadtentwicklung Berl
 ## Beispiel 2 Choroplethenkarten
 Lebensweltlich orientierte Räume
 
+Choroplethenkarten hängen von der gewählten Bezugsgröße, sowie von der gewählten statistischen Klassifikationsmethode ab.
+Quantile: Verteilen die Einheiten gleichmäßig auf die Klassen. Dadurch können kleine relative Unterschiede auffallen. Die räumliche Verteilung könnte etwas verzerrt wirken.
+Gleiche Intervalle: Teilen den Wertebereich in gleich große Abschnitte. Dies hebt Extremwerte hervor aber führt bei einer ungleicher Datenverteilung dazu, dass viele Flächen in einer Farbklasse landen.
+Jenks (Natural Breaks): Verteilt Klassen auf natürliche Gruppierungen innerhalb der Daten. Damit werden die Abweichungen innerhalb der Klassen minimiert und Unterschiede zwischen den Klassen maximiert.
+
 ![Lebensweltlich orientierte Räume](https://github.com/Berger196/GIS/blob/main/Berlin_LOR_bev19.png?raw=true)
+
+Grundlage der Karte sind die Daten der Bevölkerungsstatistik des Amts für Statistik Berlin-Brandenburg (Stand: 01.01.2019) auf Ebene der Lebensweltlich orientierten Räume (LOR). Die Zusammenstellung vergleicht vier Karten mit einer einheitlichen fünf Kategorien zur Bevölkerungsverteilung in Berlin.
